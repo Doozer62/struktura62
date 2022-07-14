@@ -4783,9 +4783,11 @@ a.close.disabled {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0; }
+  outline: 0;
+  transform: translate(-10%, -10%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 21px #454d55,
+  -10px -10px 21px #5a6268; }
 
 .modal-backdrop {
   position: fixed;

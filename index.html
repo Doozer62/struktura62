@@ -74,6 +74,30 @@
             
               <!-- End Модальное окно -->
 
+              <!-- Модальное окно для подписки Footer-->
+
+              
+              <div class="modal fade" id="modalFooter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Подписка</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Успешно подписаны
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- End Модальное окно -->
+
 
 
   <div id="overlayer"></div>
@@ -645,7 +669,7 @@
               <div>
                 <h3>Оперативная коммуникация</h3>
                 <p>Наши сотрудники всегда на связи в любом мессенджере.</p>
-                <p><a href="#">Узнать больше</a></p>
+                <p><a href="service-1.html">Узнать больше</a></p>
               </div>
             </div>
           </div>
@@ -1060,8 +1084,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 mb-5">
-
-            
+   
 
             <form method="post" name="form-footer" onsubmit="return validateForm()" class="p-5 bg-white form-footer">
               
@@ -1156,10 +1179,15 @@
             <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
             <form action="#" method="post" class="footer-subscribe">
               <div class="input-group mb-3">
-                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
+
+                  <input type="hidden" name="project_name" value="footer подписка Struktura62">
+                  <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+                  <input type="hidden" name="form_subject" value="Форма подписка Email">
+
+                <input type="email" id="modalFooter" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
                 <div class="input-group-append">
                  
-                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2" data-toggle="modal" data-target="#modalSubscribe">Отправить</button>
                 </div>
               </div>
             </form>
@@ -1179,12 +1207,8 @@
       </div>
     </footer>
 
-    <form name="myForm" action="//msiter.ru/action_page.php" onsubmit="return validateForm()" method="post">
-      Имя: <input type="text" name="fname">
-     <input type="submit" value="Submit">
-     </form>
 
-  </div>
+  
 
 
   <script src="js/jquery-3.3.1.min.js"></script>

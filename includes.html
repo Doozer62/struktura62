@@ -23,6 +23,35 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+
+
+  <!-- Модальное окно для подписки-->
+
+  
+  <div class="modal fade" id="modalSubscribe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Подписка</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Успешно подписаны
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Модальное окно -->
+
+
   
 
   <div id="overlayer"></div>
@@ -58,30 +87,21 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="/index.html" class="nav-link">Главная</a></li>
                 <li class="has-children">
-                  <a href="#about-section" class="nav-link">О нас</a>
+                  <a href="/index.html#about-section" class="nav-link">О нас</a>
                   <ul class="dropdown">
-                    <li><a href="#team-section" class="nav-link">Команда</a></li>
-                    <li><a href="#pricing-section" class="nav-link">Цены</a></li>
+                    <li><a href="/index.html#team-section" class="nav-link">Команда</a></li>
+                    <li><a href="/index.html#pricing-section" class="nav-link">Цены</a></li>
                     <!-- <li><a href="#faq-section" class="nav-link">FAQ</a></li>
                     <li><a href="#gallery-section" class="nav-link">Gallery</a></li> -->
-                    <li><a href="#services-section" class="nav-link">Услуги</a></li>
-                    <li><a href="#testimonials-section" class="nav-link">Отзывы</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="/index.html#services-section" class="nav-link">Услуги</a></li>
+                    <li><a href="/index.html#testimonials-section" class="nav-link">Отзывы</a></li>
                   </ul>
                 </li>
                 
                 
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Контакты</a></li>
+                <li><a href="/index.html#contact-section" class="nav-link">Контакты</a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-instagram"></span></a></li>
                 <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-vk"></span></a></li>
@@ -164,9 +184,15 @@
               <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
               <form action="#" method="post" class="footer-subscribe">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+  
+                    <input type="hidden" name="project_name" value="footer подписка Struktura62">
+                    <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+                    <input type="hidden" name="form_subject" value="Форма подписка Email">
+  
+                  <input type="email" id="modalSubscribe" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
+                   
+                    <button class="btn btn-primary text-black" type="button" id="button-addon2" data-toggle="modal" data-target="#modalSubscribe">Отправить</button>
                   </div>
                 </div>
               </form>
@@ -202,7 +228,7 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
   
-    
+    <script src="js/script.js"></script>
     <script src="js/main.js"></script>
 
 

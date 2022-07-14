@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>БК Структура &mdash; аутсорсинг заработной платы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+
+
+  <!-- Модальное окно для подписки-->
+
+  
+  <div class="modal fade" id="modalSubscribe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Подписка</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Успешно подписаны
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Модальное окно -->
+
+
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Загрузка...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="header-pages site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">БК Структура<span class="dot">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="/index.html" class="nav-link">Главная</a></li>
+                <li class="has-children">
+                  <a href="/index.html#about-section" class="nav-link">О нас</a>
+                  <ul class="dropdown">
+                    <li><a href="/index.html#team-section" class="nav-link">Команда</a></li>
+                    <li><a href="/index.html#pricing-section" class="nav-link">Цены</a></li>
+                    <!-- <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li> -->
+                    <li><a href="/index.html#services-section" class="nav-link">Услуги</a></li>
+                    <li><a href="/index.html#testimonials-section" class="nav-link">Отзывы</a></li>
+                  </ul>
+                </li>
+                
+                
+                <li><a href="/index.html#contact-section" class="nav-link">Контакты</a></li>
+                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
+                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-instagram"></span></a></li>
+                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-vk"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+      
+    </header>
+  
+
+  <section class="head-section">
+    <div class="row site-section" id="includes-section">
+      <div class="col-12 text-center text-wrap" data-aos="fade">
+        <h2 class="section-title pages-title">Оперативная коммуникация</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-lg learn-more-inner">
+        
+        <img src="images/avatars/Avatar 1.png" class="img-fluid rounded mx-auto d-block" alt="аватврка человека 1">
+        
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="h3 mb-4 text-black title-trust"></h3>
+          <p>
+          <ul class="list-unstyled ul-check success"> 
+          <li>Мессенджеры давно вошли в нашу жизнь. Потеря телефона, в котором хранится почти вся твоя жизнь, многим кажется катастрофой. 
+            Основное общение перешло в чаты: это удобно, ведь поддержать диалог можно в любой момент. 
+            Но в мессенджеры перешла не только дружба, но и рабочие отношения. Например, руководитель создает чат с сотрудниками отдела и общается в нем. 
+            У специалистов по продажам свой чат, у бухгалтерии – свой, у совета директоров – свой, а то и несколько. 
+            В крупных организациях число рабочих чатов может исчисляться десятками и сотнями. Но действительно ли эти чаты служат для решения рабочих вопросов?</li> 
+
+          <li>Приведу пример из практики. Начальник создал чат для своего отдела, но почти сразу он и его заместитель невзлюбили одну сотрудницу. Они писали о ней нелестные сообщения. 
+            Сначала ей удавалось переводить все в шутку, но затем в чате стали появляться грубые и оскорбительные высказывания о сотруднице. Это продолжалось около года, девушка не выдержала и пожаловалась в отдел персонала. Директор по персоналу пришла в ужас, увидев переписку в чате, и инициировала увольнение начальника отдела и его зама. Но они не согласились: 
+            общение в мессенджере не регулируется Трудовым кодексом, поэтому переписку в чате нельзя расценивать как нарушение трудовой дисциплины. 
+            В итоге конфликт вылился в гражданский иск пострадавшей, и компания наняла для нее адвоката.</li> 
+
+          <li>Действительно, общение в чатах до сих пор не регулируется законами о труде, хотя де-факто многие задачи и рабочие вопросы уже давно обсуждаются в мессенджерах. 
+            Сюда также можно отнести и внутренние видеосовещания и конференц-коллы между сотрудниками. Такое общение происходит в рабочее время и касается служебных вопросов,
+             а значит, требует регламентирования. Правила внутренних коммуникаций, дресс-код, деловой этикет работодатели уже стали регулировать в локальных нормативных актах, но нам не известно ни одного случая, когда бы работодатель разработал стандарт, описывающий корпоративное общение в мессенджерах.</li> 
+         
+        </ul>
+        </div>
+        </div>
+    </div>
+
+  </section>
+
+
+      
+  <footer class="site-footer">
+        
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">О нас</h2>
+              <p>ООО «БК» СТРУКТУРА» – специализированная компания, где одно из главных направлений работы – бухгалтерские услуги «под ключ». Мы полностью снимаем с клиента все заботы по бухучету – это выгодно не только финансово (часто услуги на аутсорсинге дешевле собственного штата бухгалтеров), но и значительно экономит время и ресурсы компании.</p>
+            </div>
+            <div class="col-md-3 ml-auto">
+              <h2 class="footer-heading mb-4">Быстрые ссылки</h2>
+              <ul class="list-unstyled">
+                <!-- <li><a href="#about-section" class="smoothscroll">Terms</a></li> -->
+                <li><a href="policy.html" class="smoothscroll">Политика</a></li>
+                <li><a href="#about-section" class="smoothscroll">О нас</a></li>
+                <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
+                <li><a href="#testimonials-section" class="smoothscroll">Отзывы</a></li>
+                <li><a href="#contact-section" class="smoothscroll">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 footer-social">
+              <h2 class="footer-heading mb-4">Так же мы есть</h2>
+              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-vk"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
+          <form action="#" method="post" class="footer-subscribe">
+            <div class="input-group mb-3">
+
+                <input type="hidden" name="project_name" value="footer подписка Struktura62">
+                <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+                <input type="hidden" name="form_subject" value="Форма подписка Email">
+
+              <input type="email" id="modalSubscribe" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
+              <div class="input-group-append">
+               
+                <button class="btn btn-primary text-black" type="button" id="button-addon2" data-toggle="modal" data-target="#modalSubscribe">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+            <p class="copyright"><small>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> | ООО "БК "Структура" <i class="icon-heart text-danger" aria-hidden="true"></i>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+      
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </footer>
+
+</div> <!-- .site-wrap -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

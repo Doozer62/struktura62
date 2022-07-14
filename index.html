@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>БК Структура &mdash; Главная страница</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <!-- Модальное окно -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Контактная форма</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Сообщение отправлено
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Модальное окно -->
+
+
+              <!-- Модальное окно для подписки-->
+
+              
+              <div class="modal fade" id="modalSubscribe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Подписка</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Успешно подписаны
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <!-- End Модальное окно -->
+
+
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-grow text-primary" role="status">
+      <span class="sr-only">Загрузка...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">БК Структура
+              <!-- <span class="dot">.</span>  -->
+              
+            </a><img class="logotype" src="images/logo.png" alt="Логотип"></h1>
+            
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Главная</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">О нас</a>
+                  <ul class="dropdown">
+                    <li><a href="#team-section" class="nav-link">Команда</a></li>
+                    <li><a href="#pricing-section" class="nav-link">Цены</a></li>
+                    <!-- <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li> -->
+                    <li><a href="#services-section" class="nav-link">Услуги</a></li>
+                    <li><a href="#testimonials-section" class="nav-link">Отзывы</a></li>
+                    <li class="has-children">
+                      <a href="#">Больше ссылок</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                
+                
+                <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
+                <li><a href="#contact-section" class="nav-link">Контакты</a></li>
+                <li class="social"><a href="https://www.youtube.com/channel/UC5vPdaoufXLfYddOUJZuiDg/featured" class="nav-link"><span class="icon-youtube"></span></a></li>
+                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-instagram"></span></a></li>
+                <li class="social"><a href="https://vk.com/r.a.struktura" class="nav-link"><span class="icon-vk"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/bg-slider4.jpg);" data-aos="fade" id="home-section">
+    
+      <div class="container"> 
+        <div class="row align-items-center justify-content-center">
+   
+          <div class="col-md-10 mt-lg-5 text-center">
+            <div class="single-text owl-carousel">
+              <div class="slide">
+                <h1 class="text" data-aos="zoom-in-up">
+                  Аутсорсинг, бухгалтерское сопровождение</h1>
+                <p class="mb-5 desc"  data-aos="zoom-in-up" data-aos-delay="100">Комплексное ведение организации, бухгалтерский, налоговый и кадровый учет, аудит, открытие, закрытие, ведение участков бухгалтерии.</p>
+                <div data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+              </div>
+
+              <div class="slide">
+                <h1 class="text" data-aos="fade-up">Что вы получите в итоге?</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Вам больше не придется заниматься поиском квалифицированного персонала и содержать целый штат бухгалтеров. Мы возьмем на себя представление ваших интересов в ИНФС, оформление документации, ведение отчетности. Таким образом, вы сможете существенно сэкономить и работать с идеально выстроенной под ваши требования системой.</p>
+              </div>
+
+              <div class="slide">
+                <h1 class="text" data-aos="fade-up">С нами выгодно</h1>
+                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Давно доказано, что аутсорсинг помогает высвободить человеческие, финансовые и даже организационные ресурсы и использовать их для развития других перспективных направлений, тем самым расширять свой бизнес.</p>
+              </div>
+
+            </div>
+          </div>
+            
+        </div>
+      </div>
+
+      <a href="#next" class="mouse smoothscroll">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </div>  
+
+    <div class="site-section" id="next">
+      <div class="container">
+        <div class="col-md text-center">
+        <h2 class="section-title mb-5" data-aos="zoom-out-down" data-aos-delay="">Привлечение аутсорсинговой компании эффективно и оправдано для -</h2>
+      </div>
+        <div class="row mb-5">
+          <div class="col-md-4 text-center" data-aos="zoom-out-down" data-aos-delay="">
+            <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Небольших фирм:</h3>
+            <p>не имеющих возможности постоянно содержать непрофильных специалистов.</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="zoom-out-down" data-aos-delay="100">
+            <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Крупных компаний:</h3>
+            <p>имеющих в составе большое количество вспомогательных подразделений, которые не приносят прибыли, но требуют финансирования.</p>
+          </div>
+          <div class="col-md-4 text-center" data-aos="zoom-out-down" data-aos-delay="50">
+            <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+            <h3 class="card-title">Фирм:</h3>
+            <p>не нуждающихся в разветвленной бухгалтерии.</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+              <img src="images/Office.png"  alt="человек бежит по часам" class="img-fluid img-trust">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h4 class="h4 mb-4 text-black title-trust">Почему Клиенты Доверяют Ведение Бухгалтерского Учета ООО «БК» Структура»</h4>
+              
+            </div>
+              
+            <div class="mb-4">
+              <ul class="list-unstyled ul-check success">
+                <li>Безупречный порядок в делах, аккуратность обращения с документацией. Точность и конкретность работы.</li>
+                <li>Ведение учета с полным пониманием специфики того или иного бизнеса и вида деятельности – мы действительно вникаем во все тонкости и нюансы работы.</li>
+                <li> Практическая целесообразность наших бухгалтерских услуг – нет нужды обучать и повышать уровень собственных бухгалтеров; обеспечивать рабочее место, канцелярию и технику. Бухгалтерские услуги оказываются непрерывно, без отпусков и выходов на больничный.</li>
+                <li>Строжайшее соблюдение сроков сдачи документации, предоставления отчетов (квартальных, ежегодных и пр.).</li>
+                <li>Выгодная для клиента и гибкая ценовая политика ведения бухгалтерского учета, определяемая множеством факторов (объем документооборота, дополнительная специфическая отчетность, штат персонала, тип предприятия, система налогообложение фирмы).</li>
+                <li>Использование программного обеспечения последнего поколения и автоматизированный контроль сроков исполнения поставленных клиентом задач.</li>
+                <li>Продуманный подход к снижению налогового бремени компании – легальному и безопасному.</li>
+              </ul>
+              
+            </div>
+
+            <div class="mb-4">
+              <form class="subscribe" method="post">
+                <div class="form-group d-flex align-items-center">
+
+                <input type="hidden" name="project_name" value="Header подписка Struktura62">
+                <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+                <input type="hidden" name="form_subject" value="Форма подписка Email">
+
+                  <input type="email" id="emailsubscribe" name="E-mail" class="form-control mr-2" placeholder="Введите почту">
+                  <input type="submit" id="submitemail" class="btn btn-primary" data-toggle="modal" data-target="#modalSubscribe" value="Отправить">
+                </div>
+              </form>
+            </div>
+
+                   
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">О нас</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src="images/about-img.png" alt="3d картинка человека за компьютером" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <h3 class="text-black mb-4">Мы Решим Ваши Финансовые Проблемы</h3>
+
+            <p>Наши сотрудники обеспечат максимальную эффективность вашего финансового сектора.</p>
+
+            <p>Имея дело со Структурой, вы можете не опасаться за сохранность вашей финансовой информации, 
+              а также за своевременное и точное предоставление отчетности контролирующим органам. 
+              Ваша репутация и процветание для нас превыше всего.</p>
+            
+          </div>
+        </div>    
+        
+      </div>  
+    </div>
+
+    
+    <section class="site-section border-bottom" id="team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="300">Наша команда</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="300">Контролируют работу отделов, а если
+              нужно общаются с клиентом напрямую.</p>
+          </div>
+        </div>
+        <div class="row">
+          
+
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/olga.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Ольга Толмачева</h3>
+                <span class="position">Гл. бухгалтер</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/yulia.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Юля Косилина</h3>
+                <span class="position">Менеджер</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/tatiana.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Татьяна Романова</h3>
+                <span class="position">Директор</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/denis.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Денис Копьев</h3>
+                <span class="position">Финансовый директор</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Kaiara Spencer</h3>
+                <span class="position">Accountant</span>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Dave Simpson</h3>
+                <span class="position">Bank Teller</span>
+              </div>
+            </div>
+          </div> -->
+<!-- 
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Ben Thompson</h3>
+                <span class="position">Bank Teller</span>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Chris Stewart</h3>
+                <span class="position">Bank Teller</span>
+              </div>
+            </div>
+          </div> -->
+
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="site-section" id="gallery-section" data-aos="fade">
+      
+
+      <div class="container">
+
+        <div class="row mb-3">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Gallery</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+          <div id="filters" class="filters text-center button-group col-md-7">
+            <button class="btn btn-primary active" data-filter="*">All</button>
+            <button class="btn btn-primary" data-filter=".web">Events</button>
+            <button class="btn btn-primary" data-filter=".design">Party</button>
+            <button class="btn btn-primary" data-filter=".brand">Holidays</button>
+          </div>
+        </div>  
+        
+        <div id="posts" class="row no-gutter">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_1.jpg" class="item-wrap fancybox">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_1.jpg">
+            </a>
+          </div>
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_2.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_3.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+
+            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_4.jpg">
+            </a>
+
+          </div>
+
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_5.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_1.jpg">
+            </a>
+          </div>
+
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_2.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_3.jpg">
+            </a>
+          </div>
+
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_4.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_5.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_1.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_1.jpg">
+            </a>
+          </div>
+
+          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <a href="images/img_2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/img_2.jpg">
+            </a>
+          </div>
+
+          
+        </div>
+      </div>
+
+    </section> -->
+
+
+    <section class="site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Что предлагаем</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100"></p>
+          </div>
+        </div>
+        
+        <div class="row align-items-lg-center" >
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+
+            <div class="owl-carousel slide-one-item-alt">
+              <img src="images/05.jpg" alt="человек бежит по часам" class="img-fluid">
+              <img src="images/22.jpg" alt="картинка с 3d" class="img-fluid">
+              <img src="images/112.jpg" alt="картинка с 3d" class="img-fluid img-337">
+            </div>
+            <div class="custom-direction">
+              <a href="#" class="custom-prev"><span><span class="icon-keyboard_backspace"></span></span></a><a href="#" class="custom-next"><span><span class="icon-keyboard_backspace"></span></span></a>
+            </div>
+
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="owl-carousel slide-one-item-alt-text">
+              <div>
+                <h2 class="text-primary mb-3">01. Не только ведение, но и восстановление бухгалтерской документации. </h2>
+                <p>Не секрет, что многим предприятиям приходится сталкиваться с последствиями работы неквалифицированных бухгалтеров (отсутствием отчетности, несовпадением показателей, некорректной документацией). Все это влечет массу проблем с контролирующими и проверяющими органами и искажает реальную картину. Именно поэтому к нам так часто обращаются директора компаний, которым необходимо привести всю финансовую и бухгалтерскую отчетность в порядок. Это непростая и трудоемкая задача, однако опытные и толковые специалисты «СТРУКТУРЫ» обладают всеми необходимыми умениями и знаниями, чтобы исправить, казалось бы, неразрешимую ситуацию.</p>
+
+                <p><a href="#" class="btn btn-primary mr-2 mb-2">Узнать больше</a></p>
+              </div>
+              <div>
+                <h2 class="text-primary mb-3">02. Комплектация бухгалтерской документации.</h2>
+                <p>Ведение делопроизводства (номенклатура и архив). Разделение первичной документации по хронологии, стадиям бизнеса (оформление договора, оплата, получение товаров и услуг и пр.).</p>
+                <p><a href="#" class="btn btn-primary mr-2 mb-2">Узнать больше</a></p>
+              </div>
+              <div>
+                <h2 class="text-primary mb-3">03. Предварительный экспресс-аудит</h2>
+                <p>Состояния дел, позволяющий выявить проблемы и наметить пути их решения.</p>
+
+                <p><a href="#" class="btn btn-primary mr-2 mb-2">Узнать больше</a></p>
+              </div>
+
+              <div>
+                <h2 class="text-primary mb-3">04. Взаимодействие с налоговыми и проверяющими органами (в том числе ИФНС, ПФР и ФСС РФ).</h2>
+                <p>Мы эффективно и взаимовыгодно сотрудничаем как с малыми индивидуальными предприятиями, предпринимателями на патенте, так и обслуживаем предприятия с многочисленным персоналом и внушительными оборотами. Обращаются к нам за бухгалтерскими услугами государственные и муниципальные предприятия – каждому клиенту гарантировано персонализированное отношение. Интересы заказчика для ООО «СТРУКТУРА» всегда первичны, это главный ориентир в ежедневной работе нашей компании.</p>
+
+                <p><a href="#" class="btn btn-primary mr-2 mb-2">Узнать больше</a></p>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    
+
+    <section class="site-section border-bottom bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Наши услуги</h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Оперативная коммуникация</h3>
+                <p>Наши сотрудники всегда на связи в любом мессенджере.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Грамотная работа с налогами</h3>
+                <p>Полное соблюдение законодательства.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/002-rich.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Предварительный просчет налога</h3>
+                <p>Отчетность подается вовремя, а сумма налога известна вам заранее.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/003-notes.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Полный контроль отчетности</h3>
+                <p>Ни один документ не может быть утерян, благодаря использованию профессионального 
+                  ПО и постоянному аудиторскому надзору.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Оптимизация работы с поставщиками</h3>
+                <p>Документы от поставщиков собираются и обрабатываются,
+                   проводятся акты сверок, также возможен перевод на работу по ЭДО.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <img src="images/flaticon-svg/svg/005-megaphone.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
+              </div>
+              <div>
+                <h3>Предупреждение рисков</h3>
+                <p>Своевременное уведомление о любых финансовых рисках для вашей компании и рекомендации по их избеганию.</p>
+                <p><a href="#">Узнать больше</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Отзывы клиентов</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+          <div>
+            <div class="testimonial">
+              
+              <blockquote class="mb-5">
+                <p>&ldquo;Не первый год сотрудничаю с этой организацией. Нравится, что всегда на связи Татьяна и Денис! Рекомендую знакомым и всем остальным.&rdquo;</p>
+              </blockquote>
+
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <!-- <div><img src="#" alt="Image" class="w-50 img-fluid mb-3"></div> -->
+                <p>«Элисента», Сергей</p>
+              </figure>
+            </div>
+          </div>
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;С Татьяной знаком давно. Занимаюсь логистикой, поэтому документы , 
+                  бывает, нужны в режиме «здесь и сейчас» - никогда не было с этим проблем. Всегда на связи – это радует!&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <!-- <div><img src="#" alt="Image" class="w-50 img-fluid mb-3"></div> -->
+                <p>«РТЛ», Алексей</p>
+              </figure>
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;На следующий день после знакомства с компанией – подписала договор о сотрудничестве. 
+                  Ни разу не пожалела! Контактные , все вопросы решаются, бухгалтерия ведется на отлично! Всем советую.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <!-- <div><img src="#" alt="Image" class="w-50 img-fluid mb-3"></div> -->
+                <p>РХС, Олеся</p>
+              </figure>
+
+              
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial">
+
+              <blockquote class="mb-5">
+                <p>&ldquo;Замечательная организация! Сначала отдал бухгалтерию только одного ООО, сейчас «Структура» полностью ведет мой бизнес. Производит бухгалтерию «под ключ» и оказывает помощь в участии в тендерах.&rdquo;</p>
+              </blockquote>
+              <figure class="mb-4 d-flex align-items-center justify-content-center">
+                <!-- <div><img src="#" alt="Image" class="w-50 img-fluid mb-3"></div> -->
+                <p>«Винтаж», Руслан</p>
+              </figure>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="site-section bg-light" id="pricing-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h2 class="section-title mb-3">Наши цены</h2>
+            <p class="lead" data-aos="fade-up" data-aos-delay="300">Тарифы на бухгалтерское обслуживание.</p>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="pricing price-box">
+              <h3 class="text-center text-black">«Базовый»</h3>
+              <div class="price text-center mb-4 ">
+                <span><span>₽ 10000</span> / месяц</span>
+              </div>
+              <ul class="list-unstyled ul-check success mb-5">
+                
+                <li>Ведение бухгалтерского учета (до 30 документов, свыше рассчитывается сверх лимита)</li>
+                <li>Составление и сдача отчетности в контролирующие органы</li>
+                <li>Текущее консультирование по вопросам бухгалтерского учета и налогообложения</li>
+                <li>Представление и защита интересов в контролирующих органах (кроме проведения выездных проверок)</li>
+                <li>Расчет заработной платы, начисление налогов и сборов (до 1 человек)</li>
+                <li class="remove">Экспресс оценка состояния бухгалтерского учета и налогового учета </li>
+                <li class="remove">Подготовка пакета документов для участия в конкурсах (тендерах), для получения кредита и банковских гарантий (1 комплект/мес.)</li>
+                <li class="remove">Составление первичных документов</li>
+              </ul>
+              <!-- <p class="text-center">
+                <a href="#" class="btn btn-primary price-btn__left">Заказать</a>
+              </p> -->
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 pricing-popular" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing price-box">
+              <h3 class="text-center text-black">«Классический»</h3>
+              <div class="price text-center mb-4 ">
+                <span><span>₽ 15000</span> / месяц</span>
+              </div>
+              <ul class="list-unstyled ul-check success mb-5">
+                
+                <li>Ведение бухгалтерского учета (до 60 документов, свыше рассчитывается сверх лимита)</li>
+                <li>Составление и сдача отчетности в контролирующие органы</li>
+                <li>Текущее консультирование по вопросам бухгалтерского учета, налогообложения и права</li>
+                <li>Представление и защита интересов в контролирующих органах (кроме проведения выездных проверок)</li>
+                <li>Расчет заработной платы, начисление налогов и сборов (до 3 человек)</li>
+                <li>Составление первичных документов</li>
+                <li class="remove">Выезд курьера в офис клиента 1 раза в месяц</li>
+                <li class="remove">Подготовка пакета документов для участия в конкурсах (тендерах), для получения кредита и банковских гарантий (1 комплект/мес.)</li>
+              </ul>
+              
+            </div>
+            
+          </div>
+
+          <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing price-box">
+              <h3 class="text-center text-black">«Премиальный»</h3>
+              <div class="price text-center mb-4 ">
+                <span><span>₽ 25000</span> / месяц</span>
+              </div>
+              <ul class="list-unstyled ul-check success mb-5">
+                
+                <li>Ведение бухгалтерского учета (до 90 документов, свыше рассчитывается сверх лимита) </li>
+                <li>Составление и сдача отчетности в контролирующие органы</li>
+                <li>Текущее консультирование по вопросам бухгалтерского учета, налогообложения и права</li>
+                <li>Представление и защита интересов в контролирующих органах (в том числе при проведении выездных проверок)</li>
+                <li>Расчет заработной платы, начисление налогов и сборов (до 5 человек)</li>
+                <li>Составление первичных документов</li>
+                <li>Выезд курьера в офис клиента 1 раза в месяц</li>
+                <li>Составление налогового календаря</li>
+                <li>Информирование о сроках платежей по налогам и сборам</li>
+                <li>Экспресс оценка состояния бухгалтерского учета и налогового учета</li>
+                <li>Подготовка пакета документов для участия в конкурсах (тендерах), для получения кредита и банковских гарантий (1 комплект/мес.)</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        
+        <p class="text-center">
+          <a href="tel:+74912477772" class="btn btn-primary price-btn__center">Заказать</a>
+        </p>
+
+        <div class="row site-section" id="faq-section">
+          <!-- <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title">Frequently Ask Questions</h2>
+          </div> -->
+        </div>
+        <div class="container row">
+          <div class="col-lg dop">
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4 dop-inner">Также передача бухгалтерских функций нашей компании даст вам возможность сэкономить на покупке и обновлении специализированного ПО, делегировать обязательства перед налоговой и сфокусировать внимание на основной деятельности предприятия, не отвлекаясь на второстепенные задания.</p>
+            </div>
+
+            <!-- <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/dop-img.png" class="img-fluid dop-img" alt="">
+          </div> -->
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4 dop-inner">Наша команда поможет вам перейти на аутсорсинг максимально комфортно и без потерь. Современные реалии заставляют пересмотреть устоявшиеся модели ведения бизнеса, и мы не оставим вас на этом пути. Вам нужно только связаться с нашими специалистами и обсудить детали сотрудничества.</p>
+            </div>
+
+            <!-- <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What available is refund period?</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">Where are you from?</h3>
+              <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+            </div>
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What is your opening time?</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+            
+            <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="text-black h4 mb-4">What available is refund period?</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section" id="about-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <figure class="circle-bg">
+            <img src="images/46.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            
+
+            <div class="row">
+
+              
+              
+              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="">
+                <div class="unit-4 d-flex">
+                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-head"></span></div>
+                  <div>
+                    <h3>Что включает аутсорсинг заработной платы:</h3>
+                    <p>Ежемесячное начисление заработной платы 
+                      расчет и возмещение выплат за счет ФСС (больничные листы ...</p>
+                    <p class="mb-0"><a href="/includes.html">Узнать больше</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="unit-4 d-flex">
+                  <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-smartphone"></span></div>
+                  <div>
+                    <h3>Как осуществляется процесс обслуживания в Бухгалтерской компании:</h3>
+                    <p>Ежемесячная передача Вами табеля учета рабочего времени в Бухгалтерскую компанию на основании реестра ...</p>
+                    <p class="mb-0"><a href="/maintenance-process.html">Узнать больше</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+  
+    
+    
+
+    <!-- <section class="site-section" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Our Blog</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="h-entry">
+              <a href="single.html">
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+              <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+              <p><a href="#">Continue Reading...</a></p>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="h-entry">
+              <a href="single.html">
+                <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+              <p><a href="#">Continue Reading...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="h-entry">
+              <a href="single.html">
+                <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+              </a>
+              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+              <p><a href="#">Continue Reading...</a></p>
+            </div> 
+          </div>
+          
+        </div>
+      </div>
+    </section> -->
+
+   
+
+
+    <section class="site-section bg-light" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Контакты</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>г.Рязань, ул. Юбилейная д.10В</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="contact-phones mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a class="contact-phone-email" href="#">+7 (906) 649-51-08</a>
+              <a class="contact-phone-email" href="#">+7 (4912) 47-77-72</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a class="contact-phone-email" href="#">r.a.struktura@mail.ru</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            
+
+            <form method="post" name="form-footer" onsubmit="return validateForm()" class="p-5 bg-white form-footer">
+              
+              <h2 class="h4 text-black mb-5">Контактная форма</h2> 
+
+              <!-- Hidden fields -->
+              <input type="hidden" name="project_name" value="Site Struktura62">
+              <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+              <input type="hidden" name="form_subject" value="Form footer">
+              <!-- End hidden fields  -->
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Имя</label>
+                  <input name="Имя" type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Название организации</label>
+                  <input name="Организация" type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group field">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email<span class="star">*</span></label> 
+                  <input name="E-mail" type="email" id="email" onchange="prov()" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row form-group field">
+                <div class="col-md-12">
+                  <label class="text-black" for="tel">Телефон<span class="star">*</span></label>
+                  <input name="Телефон" type="tel" id="tel" oninput="prov()" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group field">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Сообщение<span class="star">*</span></label> 
+                  <textarea name="Сообщение" id="message" cols="30" rows="7" class="form-control" oninput="prov()" placeholder="Ваш вопрос.." ></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group actions">
+                <a class="policy" href="policy.html">Политика конфиденциальности</a>
+                <div class="col-md-12">
+                  
+                  <input id="submit" data-toggle="modal" data-target="#exampleModalCenter"
+                         type="submit" value="Отправить" class="btn btn-primary btn-md text-white">
+                </div>
+              </div>
+
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">О нас</h2>
+                <p>ООО «БК» СТРУКТУРА» – специализированная компания, где одно из главных направлений работы – бухгалтерские услуги «под ключ». Мы полностью снимаем с клиента все заботы по бухучету – это выгодно не только финансово (часто услуги на аутсорсинге дешевле собственного штата бухгалтеров), но и значительно экономит время и ресурсы компании.</p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Быстрые ссылки</h2>
+                <ul class="list-unstyled">
+                  <!-- <li><a href="#about-section" class="smoothscroll">Terms</a></li> -->
+                  <li><a href="policy.html" class="smoothscroll">Политика</a></li>
+                  <li><a href="#about-section" class="smoothscroll">О нас</a></li>
+                  <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
+                  <li><a href="#testimonials-section" class="smoothscroll">Отзывы</a></li>
+                  <li><a href="#contact-section" class="smoothscroll">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 footer-social">
+                <h2 class="footer-heading mb-4">Так же мы есть</h2>
+                <a href="https://www.youtube.com/channel/UC5vPdaoufXLfYddOUJZuiDg/featured" class="pl-0 pr-3"><span class="icon-youtube"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="https://vk.com/r.a.struktura" class="pl-3 pr-3"><span class="icon-vk"></span></a>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                 
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> | ООО "БК "Структура" <i class="icon-heart text-danger" aria-hidden="true"></i>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <form name="myForm" action="//msiter.ru/action_page.php" onsubmit="return validateForm()" method="post">
+      Имя: <input type="text" name="fname">
+     <input type="submit" value="Submit">
+     </form>
+
+  </div>
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+
+
+  </body>
+</html>

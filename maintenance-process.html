@@ -123,79 +123,85 @@
     
 
     
-      <footer class="site-footer">
-        
-        <div class="container">
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
           <div class="row">
-            <div class="col-md-9">
-              <div class="row">
-                <div class="col-md-5">
-                  <h2 class="footer-heading mb-4">О нас</h2>
-                  <p>ООО «БК» СТРУКТУРА» – специализированная компания, где одно из главных направлений работы – бухгалтерские услуги «под ключ». Мы полностью снимаем с клиента все заботы по бухучету – это выгодно не только финансово (часто услуги на аутсорсинге дешевле собственного штата бухгалтеров), но и значительно экономит время и ресурсы компании.</p>
-                </div>
-                <div class="col-md-3 ml-auto">
-                  <h2 class="footer-heading mb-4">Быстрые ссылки</h2>
-                  <ul class="list-unstyled">
-                    <!-- <li><a href="#about-section" class="smoothscroll">Terms</a></li> -->
-                    <li><a href="policy.html" class="smoothscroll">Политика</a></li>
-                    <li><a href="#about-section" class="smoothscroll">О нас</a></li>
-                    <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
-                    <li><a href="#testimonials-section" class="smoothscroll">Отзывы</a></li>
-                    <li><a href="#contact-section" class="smoothscroll">Контакты</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-3 footer-social">
-                  <h2 class="footer-heading mb-4">Так же мы есть</h2>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-vk"></span></a>
-                </div>
-              </div>
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">О нас</h2>
+              <p>ООО «БК» СТРУКТУРА» – специализированная компания, где одно из главных направлений работы – бухгалтерские услуги «под ключ». Мы полностью снимаем с клиента все заботы по бухучету – это выгодно не только финансово (часто услуги на аутсорсинге дешевле собственного штата бухгалтеров), но и значительно экономит время и ресурсы компании.</p>
             </div>
-            <div class="col-md-3">
-              <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
-              <form action="#" method="post" class="footer-subscribe">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-black" type="button" id="button-addon2">Отправить</button>
-                  </div>
-                </div>
-              </form>
+            <div class="col-md-3 ml-auto">
+              <h2 class="footer-heading mb-4">Быстрые ссылки</h2>
+              <ul class="list-unstyled">
+                <!-- <li><a href="#about-section" class="smoothscroll">Terms</a></li> -->
+                <li><a href="policy.html" class="smoothscroll">Политика</a></li>
+                <li><a href="#about-section" class="smoothscroll">О нас</a></li>
+                <li><a href="#services-section" class="smoothscroll">Услуги</a></li>
+                <li><a href="#testimonials-section" class="smoothscroll">Отзывы</a></li>
+                <li><a href="#contact-section" class="smoothscroll">Контакты</a></li>
+              </ul>
             </div>
-          </div>
-          <div class="row pt-5 mt-5 text-center">
-            <div class="col-md-12">
-              <div class="border-top pt-5">
-                <p class="copyright"><small>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;<script>document.write(new Date().getFullYear());</script> | ООО "БК "Структура" <i class="icon-heart text-danger" aria-hidden="true"></i>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
-          
-              </div>
+            <div class="col-md-3 footer-social">
+              <h2 class="footer-heading mb-4">Так же мы есть</h2>
+              <a href="https://www.youtube.com/channel/UC5vPdaoufXLfYddOUJZuiDg/featured" class="pl-0 pr-3"><span class="icon-youtube"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="https://vk.com/r.a.struktura" class="pl-3 pr-3"><span class="icon-vk"></span></a>
+              
             </div>
-            
           </div>
         </div>
-        
-      </footer>
-  
+        <div class="col-md-3">
+          <h2 class="footer-heading mb-4">Подписаться на рассылку</h2>
+          <form action="#" method="post" class="footer-subscribe">
+            <div class="input-group mb-3">
+
+                <input type="hidden" name="project_name" value="footer подписка Struktura62">
+                <input type="hidden" name="admin_email" value="admin@you.mcdir.ru">
+                <input type="hidden" name="form_subject" value="Форма подписка Email">
+
+              <input type="email" id="modalFooter" name="E-mail" class="form-control border-secondary text-white bg-transparent" placeholder="Email" aria-label="Enter Email" aria-describedby="button-addon2">
+              <div class="input-group-append">
+               
+                <input type="submit" id="submitemail" class="btn btn-primary" data-toggle="modal" data-target="#modalSubscribe" value="Отправить">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+            <p class="copyright"><small>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> | ООО "БК "Структура" <i class="icon-heart text-danger" aria-hidden="true"></i>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+      
+          </div>
+        </div>
+      </div>
     </div>
-  
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-  
-    
-    <script src="js/main.js"></script>
+  </footer>
+
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>
